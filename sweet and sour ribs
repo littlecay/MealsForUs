@@ -1,0 +1,48 @@
+import PressurePot %not is ok
+import food = [FinePorkRib = 500g]
+import seasoning = [WhiteSesameSeed = 2g, 
+                    Oil = 200ml,
+                    SichuanPepper = 10pics,
+                    Ginger = 50g,
+                    Scallion = 100g,
+                    CookingWine = 50ml,
+                    RockSuger = 50g,
+                    SoyaSauceLight = 100ml,
+                    Vinegar1 = 200ml,
+                    Vinegar2 = 50ml,
+                    Water1 = 4l,
+                    Water2 = 1l]
+def mix1
+Sauce = CookingWine+SoyaSauceLight+Vinegar1+RockSuger+water2
+
+def mix2
+Flavour = SichuanPepper+Ginger+Scallion
+
+def main
+mix1
+mix2
+if PressurePot = ture:
+    PressurePot.add(Water1+FinePorkRib)
+    boil
+    PressurePot.del(Foam)
+    PressurePot.add(Flavour)
+    PressurePot.press(time = 10min)
+    PressurePot.pop(FinePorkRib)
+else    
+    Pot.add(Water1+FinePorkRib)
+    boil
+    Pot.del(Foam)
+    Pot.add(Flavour)
+    Pot.boil(time = 30min)
+    Pot.pop(FinePorkRib)
+Pot.heat
+Pot.add(oil)
+Pot.add(FinePorkRib)
+while (Color_FinePorkLib == golden)!:
+    stir
+Pot.add(Sauce)
+while (Pot.full == bubble)!
+    heat
+Pot.pop(FinePorkRib)
+FinePorkRib.add(WhiteSesameSeed)
+print(FinePorkRib)
