@@ -1,4 +1,4 @@
-import PressurePot %not is ok
+import PressurePot %not necessary
 import food = [FinePorkRib = 500g]
 import seasoning = [WhiteSesameSeed = 2g, 
                     Oil = 200ml,
